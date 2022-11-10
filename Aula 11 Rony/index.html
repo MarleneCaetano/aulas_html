@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11</title>
+</head>
+
+<body>
+    <form action="https://www.w3schools.com/action_page.php" method="post" enctype="multipart/form-data">
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label>
+            Seu Nome
+            <input type="text" placeholder="Nome">
+        </label>
+        <br><br>
+        <input type="text" placeholder="Sobrenome">
+        <br><br>
+        <input type="number" placeholder="Idade">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Contatos</legend>
+        <br><br>
+        <input type="email" placeholder="seu.email.com">
+        <br><br>
+        <input type="tel" placeholder="(00) 0 0000 0000">
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Endereco</legend>
+        <input type="text" placeholder="Rua" name="rua">
+        <br><br>
+        <input type="text" placeholder="Numero" name="casa_numero">
+        <br><br>
+        <input type="text" placeholder="Bairro" name="Bairro">
+        <br><br>
+        <legend>Regiao</legend>
+        <select name="Regiao" id="">
+            <option>Selecione sua região</option>
+            <option value="ne">Nordeste</option>
+            <option value="s">Sul</option>
+            <option value="no">Norte</option>
+            <option value="co">Centro Oeste</option>
+            <option value="se">Sudeste</option>
+            <option value="op">Outros países</option>
+        </select>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Outras informacoes</legend>
+        <p>Mora sozinho</p>
+        <label>
+            <input type="radio" name="mora" value="Sozinho">
+            Sim
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="mora" value="acompanhado">
+            Nao
+        </label>
+        <br><br><br>
+        <legend>Tem eletrodomesticos</legend>
+        <br>
+        <label>
+            <input type="checkbox" name="Fogao" value="Fogao">
+            Fogao
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="Geladeira" value="Geladeira">
+            Geladeira
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="TV" value="TV">
+            TV
+        </label>
+        <br><br>
+    </fieldset>
+    <br><br>
+    <input type="submit">
+    <input type="button" value="IB - Enviar">
+    <button>B - Enviar</button>
+
+</form>
+
+</body>
+
+</html>
